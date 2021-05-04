@@ -1,0 +1,25 @@
+header {
+  background-color:#ead3cb 
+}
+
+header h1 {
+  color: #845460;
+  text-align:center;
+}
+
+header nav ul li{
+  display: inline-block;
+  margin-left: 40px;
+  font-size: large;
+  padding-top: 30px;
+
+}
+
+header nav ul li a{
+    color: #845460;
+
+    text-decoration: none;
+}
+footer{
+  background-color: #bdc7c9;
+}
