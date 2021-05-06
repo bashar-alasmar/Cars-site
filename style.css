@@ -23,3 +23,7 @@ header nav ul li a{
 footer{
   background-color: #bdc7c9;
 }
+
+ol{
+  background: red;
+}
