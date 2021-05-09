@@ -1,5 +1,15 @@
+/*
+ universal selector
+*/
+.lamis{
+  background-color: red;
+  
+}
+* {
+    margin: 0%;
+}
 header {
-  background-color:#ead3cb 
+  background-color:#ead3cb; 
 }
 
 header h1 {
@@ -20,10 +30,34 @@ header nav ul li a{
 
     text-decoration: none;
 }
-footer{
-  background-color: #bdc7c9;
+/* # the name of the ID */
+#first{
+  background: #845460;
+  height: 200px;
+  text-align: center;
+  color: #ead3cb;
+  padding-top: 50px;
+  font-size:x-large;
+  margin-top:10px;
+}
+/* . the name of the class */
+.same{
+ float: left;
+ margin-left: 8%;
+}
+.same h3{
+  text-align: center;
+  color: #845460;
 }
 
-ol{
-  background: red;
+
+
+
+footer{
+  clear: both;
+  background-color: #845460;
+  height: 100px;
+  text-align: center;
+  color: #ead3cb;
+  padding-top:20px;
 }
